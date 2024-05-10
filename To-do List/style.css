@@ -1,0 +1,102 @@
+body {
+    background-color: #074173; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
+}
+
+.container {
+    width: 30%; 
+    margin: 50px auto; 
+    background-color: #1679AB; 
+    border-radius: 20px; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgb(255, 255, 255);    
+    text-align: center;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    background-color: #5DEBD7; 
+    color: #074173;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #c5ff95; 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5DEBD7;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px; /* Adiciona espaço entre o container e o footer */
+}
+
+#listaTarefas {
+    width: auto; /* ou width: 100%; */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da lista */
+}
+
+#limparTarefas {
+    margin-bottom: 20px; /* Adiciona espaço abaixo do botão "Limpar Lista" */
+}
+
+footer {
+    background-color: #074173;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 120px); /* Reduz a largura do campo de entrada */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ffffff;
+}
+
+li {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 10px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.concluido {
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px; /* Ajuste conforme necessário */
+    border: 1px solid #074173; /* Cor da borda do círculo */
+    margin-right: 8px; /* Espaçamento entre o círculo e o texto da tarefa */
+}
+
+input[type="checkbox"]:checked {
+    background-color: #C5FF95; /* Cor de fundo do círculo quando estiver selecionado */
+}
