@@ -1,2 +1,2 @@
 # Lista de Tarefas
- Repositório
+Primeiro repositório e primeiro contato com GitHub. 
